@@ -9,5 +9,8 @@ Route::get('/', function () {
 
 // Admin Route //
 Route::get('/admin', function () {
-    return view('backend.index');
+    return view('backend.layout');
+});
+Route::get('/home', function () {
+    return view('backend.home');
 });
